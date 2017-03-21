@@ -9,8 +9,22 @@ var React = require('react');
 // });
 var About = (props) => {
   return (
-    <h3>About</h3>,
-    <p>Welcome to the About page!!</p>
+    <div>
+      <h1 className="text-center">About</h1>
+      <p>This is a small weather app I built While completing a React tutorial.</p>
+      <p>I build this app with</p>
+      <ul>
+        <li>
+          React
+        </li>
+        <li>
+          Webpack
+        </li>
+        <li>
+          Open Weather Map
+        </li>
+      </ul>
+    </div>
   )
 }
 module.exports = About;
